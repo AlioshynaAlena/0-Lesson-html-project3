@@ -1,40 +1,74 @@
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+}
 
 header {
     /* Стили для хедера */
+    background-color: #2965F1;
+    padding: 23px 0;
 }
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
 }
 
 .main-section {
     /* Стили для первой секции */
+    background-color: #FAFAFF;
+    padding: 60px 0;
+    height: 100vh;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+    color: #303030;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 20px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+    color: #303030;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
+    max-width: 715px;
 }
-
 
 .about-section {
     /* Стили для второй секции */
+    padding: 100px 0;
+    background-color: #FFFFFF;
 }
 
 select {
     /* Стили для выпадающего списка */
+    border: 1px solid #3030304D;
+    color: #303030;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 5px;
+    width: 150px;
+    padding: 9px 0 8px 12px;
 }
 
 .section-title {
@@ -69,7 +103,8 @@ table {
     /* Стили для таблицы */
 }
 
-th, td {
+th,
+td {
     /* Стили для ячеек таблицы */
 }
 
